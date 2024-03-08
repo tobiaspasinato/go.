@@ -5,7 +5,9 @@ import(
 )
 
 func main(){
-	var edad int
+	var(
+		edad int
+	)
 	fmt.Println("Cual es tu edad? ")
 	fmt.Scanln(&edad)
 	if(edad > 17){
